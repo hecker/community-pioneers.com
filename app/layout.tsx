@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Nunito, Exo_2 } from "next/font/google";
 
@@ -19,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html className="dark" lang="en">
-      <body className={`${nunito.variable} ${exo2.variable}`}>{children}</body>
+      <body className={`${nunito.variable} ${exo2.variable}`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
