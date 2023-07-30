@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   description:
     "The go-to event for Community Builders! Happening 2024 in Berlin.",
   metadataBase: new URL("https://community-x.org"),
+  creator: "Jan Hecker",
+  publisher: "Jan Hecker",
+  authors: [{ name: "Jan Hecker", url: "https://hecker.vc" }],
+  keywords: ["Community X", "Community Building"],
+  colorScheme: "dark",
+  openGraph: {
+    images: ["/header.png"],
+  },
 };
 
 export default function RootLayout({
