@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="text-3xl text-black dark:text-white">Community 𝕏</h1>
         <div className="text-center my-10 mx-5">
           <p className="text-black dark:text-white">
-            the go-to event for community builders! happening 2024 in berlin.
+            The go-to event for Community Builders! Happening 2024 in Berlin.
           </p>
         </div>
         <TypeformButton />

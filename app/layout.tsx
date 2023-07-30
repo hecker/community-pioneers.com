@@ -6,9 +6,10 @@ const nunito = Nunito({ subsets: ["latin"], variable: "--font-nunito" });
 const exo2 = Exo_2({ subsets: ["latin"], variable: "--font-exo-2" });
 
 export const metadata: Metadata = {
-  title: "community.berlin",
-  description: "The OG event for community builders. Berlin, 2024.",
-  metadataBase: new URL("https://community.berlin"),
+  title: "Community 𝕏",
+  description:
+    "The go-to event for Community Builders! Happening 2024 in Berlin.",
+  metadataBase: new URL("https://community-x.org"),
 };
 
 export default function RootLayout({
