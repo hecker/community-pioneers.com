@@ -7,7 +7,7 @@ const TypeformButton = () => {
       id="CjjEDWRH"
       className="px-2.5 py-1 rounded-md bg-green text-white"
     >
-      I'm interested!
+      Get your invite!
     </PopupButton>
   );
 };
