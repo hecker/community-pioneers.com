@@ -7,7 +7,7 @@ const TypeformButton = () => {
       id="CjjEDWRH"
       className="px-2.5 py-1 rounded-md bg-green text-white"
     >
-      Register now
+      I'm interested!
     </PopupButton>
   );
 };
