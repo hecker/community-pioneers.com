@@ -7,7 +7,7 @@ const nunito = Nunito({ subsets: ["latin"], variable: "--font-nunito" });
 const exo2 = Exo_2({ subsets: ["latin"], variable: "--font-exo-2" });
 
 export const metadata: Metadata = {
-  title: "Community 𝕏",
+  title: "Community Leaders",
   description:
     "The go-to event for Community Leaders! Happening 2024 in Berlin.",
   metadataBase: new URL("https://community-x.org"),
