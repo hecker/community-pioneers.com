@@ -10,10 +10,9 @@ export default function Home() {
         <h1 className="text-3xl">Community Leaders</h1>
         <div className="my-10 mx-5">
           <p className="2xl:px-80 xl:px-80 lg:px-44 md:px-24 mb-4">
-            Join us at the foremost event for Community Leaders! This is where
-            creators, venture capitalists, founders, and leading community
-            managers come together. It's a place for those who are at the heart
-            of their communities, building and shaping them every day.
+            Join us at our exclusive event for Community Leaders! A place for
+            those who are at the heart of their communities, building and
+            shaping them every day.
           </p>
           <div className="flex flex-row justify-center space-x-6">
             <div className="flex items-center">
