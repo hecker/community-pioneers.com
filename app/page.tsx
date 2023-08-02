@@ -12,15 +12,25 @@ export default function Home() {
         <div className="my-10 mx-5">
           <p className="2xl:px-80 xl:px-80 lg:px-44 mb-2">
             An exclusive 2-day event for the pioneers of community building! A
-            place to meet, learn, party, and network with experts from the
-            community space.
+            place to meet, learn, party, and network with like-minded
+            professionals from the community space.
           </p>
           <p className="2xl:px-80 xl:px-80 lg:px-44 md:px-24 mb-4">
             Organized by{" "}
-            <Link href={"https://www.linkedin.com/in/engelieromero/"}>
+            <Link
+              className="underline"
+              href={"https://www.linkedin.com/in/engelieromero/"}
+            >
               Engelie
             </Link>{" "}
-            and <Link href={"https://www.linkedin.com/in/janhecker/"}>Jan</Link>
+            and{" "}
+            <Link
+              className="underline"
+              href={"https://www.linkedin.com/in/janhecker/"}
+            >
+              Jan
+            </Link>
+            .
           </p>
           <div className="flex flex-row justify-center space-x-6">
             <div className="flex items-center">
@@ -31,7 +41,7 @@ export default function Home() {
                 width={20}
                 height={20}
               />
-              <p className="m-0">2024</p>
+              <p className="m-0">May 2024</p>
             </div>
             <div className="flex items-center ">
               <Image
