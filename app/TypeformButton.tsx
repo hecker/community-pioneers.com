@@ -5,7 +5,7 @@ const TypeformButton = () => {
   return (
     <PopupButton
       id="CjjEDWRH"
-      className="px-2.5 py-1 rounded-md bg-green text-white"
+      className="px-2.5 py-1 rounded-md bg-green text-white font-bold"
     >
       Get your invite!
     </PopupButton>
