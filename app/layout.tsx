@@ -10,11 +10,12 @@ export const metadata: Metadata = {
   title: "Community Pioneers 2024",
   description:
     "The go-to event for community builders! Happening 2024 in Berlin.",
-  metadataBase: new URL("https://community-x.org"),
+  metadataBase: new URL("https://community-pioneers.com"),
   creator: "Jan Hecker",
   publisher: "Jan Hecker",
   authors: [{ name: "Jan Hecker", url: "https://hecker.vc" }],
   keywords: [
+    "Community Pioneers",
     "Community Leaders",
     "Community Building",
     "Community Event Berlin",
